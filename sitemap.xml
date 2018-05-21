@@ -3,29 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://akaisuicchi.github.io/portfolio/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/projects/creations/</loc>
+    <loc>https://akaisuicchi.github.io/portfolio/projects/creations/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/projects/creations/convoca/</loc>
+    <loc>https://akaisuicchi.github.io/portfolio/projects/creations/convoca/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://akaisuicchi.github.io/portfolio/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/projects/</loc>
+    <loc>https://akaisuicchi.github.io/portfolio/projects/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://akaisuicchi.github.io/portfolio/tags/</loc>
     <priority>0</priority>
   </url>
   
