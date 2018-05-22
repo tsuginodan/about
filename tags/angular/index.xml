@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Proyectos personales on Portfolio</title>
-    <link>https://example.org/projects/creations/</link>
-    <description>Recent content in Proyectos personales on Portfolio</description>
+    <title>Angular on Portfolio</title>
+    <link>https://example.org/tags/angular/</link>
+    <description>Recent content in Angular on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 21 May 2018 21:05:30 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 21 May 2018 20:20:06 -0500</lastBuildDate>
     
-	<atom:link href="https://example.org/projects/creations/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://example.org/tags/angular/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

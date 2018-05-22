@@ -3,29 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://akaisuicchi.github.io/portfolio/</loc>
+    <loc>https://example.org/projects/creations/</loc>
+    <lastmod>2018-05-21T21:05:30-05:00</lastmod>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://akaisuicchi.github.io/portfolio/projects/creations/</loc>
+    <loc>https://example.org/projects/creations/uver-move/</loc>
+    <lastmod>2018-05-21T21:05:30-05:00</lastmod>
+    <priority>0.4</priority>
   </url>
   
   <url>
-    <loc>https://akaisuicchi.github.io/portfolio/projects/creations/convoca/</loc>
+    <loc>https://example.org/projects/creations/convoca/</loc>
+    <lastmod>2018-05-21T21:05:30-05:00</lastmod>
+    <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://akaisuicchi.github.io/portfolio/categories/</loc>
+    <loc>https://example.org/tags/angular/</loc>
+    <lastmod>2018-05-21T21:05:30-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://akaisuicchi.github.io/portfolio/projects/</loc>
+    <loc>https://example.org/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://akaisuicchi.github.io/portfolio/tags/</loc>
+    <loc>https://example.org/</loc>
+    <lastmod>2018-05-21T21:05:30-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/ionic/</loc>
+    <lastmod>2018-05-21T21:05:30-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/projects/</loc>
+    <lastmod>2018-05-21T21:05:30-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/</loc>
+    <lastmod>2018-05-21T21:05:30-05:00</lastmod>
     <priority>0</priority>
   </url>
   
