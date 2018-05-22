@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Proyectos personales on Portfolio</title>
-    <link>https://example.org/projects/creations/</link>
+    <link>https://akaisuicchi.github.io/portfolio/projects/creations/</link>
     <description>Recent content in Proyectos personales on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 21 May 2018 21:05:30 -0500</lastBuildDate>
     
-	<atom:link href="https://example.org/projects/creations/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://akaisuicchi.github.io/portfolio/projects/creations/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Uver Move</title>
-      <link>https://example.org/projects/creations/uver-move/</link>
+      <link>https://akaisuicchi.github.io/portfolio/projects/creations/uver-move/</link>
       <pubDate>Mon, 21 May 2018 20:20:06 -0500</pubDate>
       
-      <guid>https://example.org/projects/creations/uver-move/</guid>
+      <guid>https://akaisuicchi.github.io/portfolio/projects/creations/uver-move/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Convoca</title>
-      <link>https://example.org/projects/creations/convoca/</link>
+      <link>https://akaisuicchi.github.io/portfolio/projects/creations/convoca/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/projects/creations/convoca/</guid>
+      <guid>https://akaisuicchi.github.io/portfolio/projects/creations/convoca/</guid>
       <description></description>
     </item>
     
