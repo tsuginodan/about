@@ -5,13 +5,27 @@
   <url>
     <loc>https://akaisuicchi.github.io/portfolio/projects/creations/</loc>
     <lastmod>2018-05-21T21:05:30-05:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://akaisuicchi.github.io/portfolio/projects/contributions/</loc>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://akaisuicchi.github.io/portfolio/projects/creations/uver-move/</loc>
-    <lastmod>2018-05-21T21:05:30-05:00</lastmod>
-    <priority>0.4</priority>
+    <loc>https://akaisuicchi.github.io/portfolio/projects/creations/ruccontribuyente/</loc>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://akaisuicchi.github.io/portfolio/projects/contributions/uver-move/</loc>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://akaisuicchi.github.io/portfolio/projects/creations/derentaaventa/</loc>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -32,14 +46,29 @@
   </url>
   
   <url>
-    <loc>https://akaisuicchi.github.io/portfolio/</loc>
+    <loc>https://akaisuicchi.github.io/portfolio/tags/elk-stack/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://akaisuicchi.github.io/portfolio/tags/firebase/</loc>
     <lastmod>2018-05-21T21:05:30-05:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://akaisuicchi.github.io/portfolio/tags/ionic/</loc>
-    <lastmod>2018-05-21T21:05:30-05:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://akaisuicchi.github.io/portfolio/tags/nodejs/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://akaisuicchi.github.io/portfolio/</loc>
+    <lastmod>2018-05-21T21:05:30-05:00</lastmod>
   </url>
   
   <url>

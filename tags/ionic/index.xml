@@ -6,18 +6,18 @@
     <description>Recent content in Ionic on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 21 May 2018 20:20:06 -0500</lastBuildDate>
     
 	<atom:link href="https://akaisuicchi.github.io/portfolio/tags/ionic/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Uver Move</title>
-      <link>https://akaisuicchi.github.io/portfolio/projects/creations/uver-move/</link>
-      <pubDate>Mon, 21 May 2018 20:20:06 -0500</pubDate>
+      <link>https://akaisuicchi.github.io/portfolio/projects/contributions/uver-move/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://akaisuicchi.github.io/portfolio/projects/creations/uver-move/</guid>
-      <description></description>
+      <guid>https://akaisuicchi.github.io/portfolio/projects/contributions/uver-move/</guid>
+      <description>&amp;lsquo;Uber&amp;rsquo; para mudanzas o translado de objectos pesados.
+Se me ocurrio luego de buscar por internet alguna idea parecida&amp;hellip; resulta que si habian unas, pero no de la famosa app. Luego de unas horas creí, además de recordar, que muchas mypes de transporte buscan este tipo de aplicaciones. Entonces no solo quise hacer realidad la idea, sino tambien hacer público el proyecto para que otros no tengan que empezar de cero.</description>
     </item>
     
   </channel>

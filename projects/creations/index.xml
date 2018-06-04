@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Proyectos personales on Portfolio</title>
+    <title>Creaciones on Portfolio</title>
     <link>https://akaisuicchi.github.io/portfolio/projects/creations/</link>
-    <description>Recent content in Proyectos personales on Portfolio</description>
+    <description>Recent content in Creaciones on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 21 May 2018 21:05:30 -0500</lastBuildDate>
@@ -12,12 +12,25 @@
     
     
     <item>
-      <title>Uver Move</title>
-      <link>https://akaisuicchi.github.io/portfolio/projects/creations/uver-move/</link>
-      <pubDate>Mon, 21 May 2018 20:20:06 -0500</pubDate>
+      <title>Ruc Contribuyente</title>
+      <link>https://akaisuicchi.github.io/portfolio/projects/creations/ruccontribuyente/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://akaisuicchi.github.io/portfolio/projects/creations/uver-move/</guid>
-      <description></description>
+      <guid>https://akaisuicchi.github.io/portfolio/projects/creations/ruccontribuyente/</guid>
+      <description>Ruc Contribuyente (nombre pendiente) es un servicio de consulta de RUC de las diferentes empresas del pais.
+Lo desarrollé luego de conocer una pagina que ya lo ofrece y porque pense que seria sencillo. (Que por cierto no lo fue &amp;hellip;)
+Usando la técnica Web Scrapping creé un bot que hace lo siguiente:
+ Ingresa a la pagina: Padrón Reducido de SUNAT. Verifica que la información este actualizada. Esto lo hago fijandome en la fecha de publicación que se encuentra en la cabecera.</description>
+    </item>
+    
+    <item>
+      <title>DeRentaAVenta</title>
+      <link>https://akaisuicchi.github.io/portfolio/projects/creations/derentaaventa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://akaisuicchi.github.io/portfolio/projects/creations/derentaaventa/</guid>
+      <description>DeRentaAVenta (nombre largo pero no encontre otro que me gustara&amp;hellip;) tiene como objetivo crear una red social de gente interesada en vender o alquilar su propiedad o inmueble y personas que buscan un nuevo hogar o estadía temporal sin salir de casa.
+Cuantas personas en sus carros o de camino al trabajo ven uno de esos anuncios, por el apuro no logran apuntarlo o se limitan a recordar la calle por la que alguna vez caminaron, solo para terminar olvidandose.</description>
     </item>
     
     <item>
@@ -26,7 +39,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://akaisuicchi.github.io/portfolio/projects/creations/convoca/</guid>
-      <description></description>
+      <description>Convoca es una app que combina una red social y los deportes.
+Me puse en una situación:
+¿Que podría hacer si luego de planear un partido con mis amigos, uno de ellos (por alguno motivo o compromiso) tuviera que faltar a nuestro reunión?  Podriamos posponerlo, somos todos o nada&amp;hellip; Podriamos convencerlo que los amigos son más importantes que cualquier otra cosa&amp;hellip; Podriamos probar llamar a alguien que si tenga tiempo para los amigos y que venga en las proximas horas&amp;hellip;</description>
     </item>
     
   </channel>
