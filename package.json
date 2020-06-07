@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rm -rdf dist && parcel src/index.html",
+    "build": "rm -rdf dist && parcel build src/* --no-source-maps",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akaisuicchi/portfolio.git"
+  },
+  "keywords": [],
+  "author": "Daniel Alvarez Vera @akaisuicchi",
+  "private": true,
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akaisuicchi/portfolio/issues"
+  },
+  "homepage": "https://github.com/akaisuicchi/portfolio#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.8.0",
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.4",
+    "postcss": "^7.0.32",
+    "tailwindcss": "^1.4.6"
+  }
+}

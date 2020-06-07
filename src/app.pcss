@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply bg-blue-400;
+}
+
+svg {
+  fill: theme('colors.blue.600');
+}
+
+.neumorphism {
+  @apply bg-blue-400 border border-blue-400;
+}
+
+.neumorphism__card {
+  @apply rounded-full;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.neumorphism__card__overlay {
+  @apply bg-blue-400;
+  opacity: .60;
+}
+
+.neumorphism__card img {
+  z-index: -1;
+}
