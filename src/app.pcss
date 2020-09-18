@@ -2,31 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  @apply bg-blue-400;
+:root {
+  --minFontSize: 2em;
+  --maxFontSize: 12em;
+  --preferredFontSize: 2em + 2vw;
+}
+
+main {
+  font-family: theme('fontFamily.display');
+}
+
+main h2 {
+  --preferredFontSize: 4em + 4vw;
+  font-size: clamp(var(--minFontSize), var(--preferredFontSize), var(--maxFontSize));
+}
+main h3 {
+  font-size: clamp(var(--minFontSize), var(--preferredFontSize), var(--maxFontSize));
 }
 
 svg {
-  fill: theme('colors.blue.600');
+   fill: theme('backgroundColor.gray.600')
 }
-
-.neumorphism {
-  @apply bg-blue-400 border border-blue-400;
-}
-
-.neumorphism__card {
-  @apply rounded-full;
-  background-blend-mode: overlay;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.neumorphism__card__overlay {
-  @apply bg-blue-400;
-  opacity: .60;
-}
-
-.neumorphism__card img {
-  z-index: -1;
+a:hover svg {
+   fill: theme('backgroundColor.gray.400')
 }
