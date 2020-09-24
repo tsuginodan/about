@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html lang="en" class="h-full p-4">
+<html lang="en" class="h-full p-2 md:p-4">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Daniel Alvarez Vera</title>
+  <meta name="description" content="Just a simple presentation card">
+  <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
+  <link rel="manifest" href="./site.webmanifest">
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
   <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
   <link rel="preconnect" href="//fonts.gstatic.com">
@@ -39,14 +44,14 @@
 
   <main class="about container m-auto h-full grid grid-rows-3">
     <div class="grid-header-area text-left flex items-center justify-center">
-      <div class="w-2/3 sm:w-3/4">
-        <p class="about__greeting text-center">Hi,</p>
-        <p class="text-center">I am</p>
+      <div class="text-center">
+        <p class="about__greeting">Hi,</p>
+        <p>I am</p>
       </div>
     </div>
 
     <div class="grid-content-area text-center flex flex-col items-center justify-center">
-      <div class="w-2/3 sm:w-3/4">
+      <div class="text-center">
         <h1 class="about__name">Daniel Alvarez</h1>
         <h2 class="about__occupation font-thin">Software Developer</h2>
       </div>
@@ -65,11 +70,11 @@
 
     <div x-data="data()" class="grid-footer-area h-full w-full flex justify-around items-center">
       <template x-for="(item, index) in social" :key="item">
-        <div class="w-20 md:w-24 xl:w-32 h-20 md:h-24 xl:h-32 rounded-full">
+        <div class="w-12 md:w-16 xl:w-20 h-12 md:h-16 xl:h-20 rounded-full">
           <a :title="item.title" :aria-label="item.label" :href="item.href" target="_blank" rel="noreferrer noopener"
             class="w-full h-full flex items-center justify-center">
-            <div class="w-1/2 h-1/2">
-              <svg class="w-full">
+            <div class="w-full h-full">
+              <svg class="w-full h-full">
                 <use :href="item.icon"></use>
               </svg>
             </div>
