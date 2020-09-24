@@ -13,7 +13,7 @@
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.0/dist/alpine.min.js" defer></script>
 </head>
 
-<body class="w-full h-full bg-gray-200 rounded flex items-center">
+<body class="shadow-xl w-full h-full rounded flex items-center">
   <svg class="hidden">
     <symbol id="linkedIn" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
       <title>LinkedIn icon</title>
@@ -37,23 +37,24 @@
     </symbol>
   </svg>
 
-  <main class="container m-auto h-full grid grid-rows-3">
+  <main class="about container m-auto h-full grid grid-rows-3">
     <div class="grid-header-area text-left flex items-center justify-center">
-      <div class="w-2/3">
-        <p class="greetings sm:text-center">Hi, &#x1F44B;<br>I am</p>
+      <div class="w-2/3 sm:w-3/4">
+        <p class="about__greeting text-center">Hi,</p>
+        <p class="text-center">I am</p>
       </div>
     </div>
 
     <div class="grid-content-area text-center flex flex-col items-center justify-center">
-      <div class="w-2/3">
-        <h1 class="name">Daniel Alvarez</h1>
-        <h2 class="about font-thin">Software Developer</h2>
+      <div class="w-2/3 sm:w-3/4">
+        <h1 class="about__name">Daniel Alvarez</h1>
+        <h2 class="about__occupation font-thin">Software Developer</h2>
       </div>
     </div>
 
-    <div class="hidden grid-sidebar-area relative md:flex flex-col items-center justify-center">
+    <div class="hidden grid-sidebar-area relative lg:flex flex-col items-center justify-center">
       <div class="z-10 opacity-50 absolute w-64 h-64 rounded-full bg-gradient-to-t from-blue-500 to-purple-500"></div>
-      <img class="absolute w-64 h-64 object-cover rounded-full bg-blue-400" loading="lazy"
+      <img class="absolute w-64 h-64 object-cover rounded-full" loading="lazy"
         src="https://public.dalvarez.dev/portfolio-profile_4.jpg" alt="Daniel Alvarez Vera">
       <div class="w-2/3 h-full">
         <svg class="w-full h-full">
@@ -62,9 +63,9 @@
       </div>
     </div>
 
-    <div x-data="data()" class="grid-footer-area h-full w-full flex justify-between items-center">
+    <div x-data="data()" class="grid-footer-area h-full w-full flex justify-around items-center">
       <template x-for="(item, index) in social" :key="item">
-        <div class="w-24 md:w-32 xl:w-40 h-24 md:h-32 xl:h-40 rounded-full">
+        <div class="w-20 md:w-24 xl:w-32 h-20 md:h-24 xl:h-32 rounded-full">
           <a :title="item.title" :aria-label="item.label" :href="item.href" target="_blank" rel="noreferrer noopener"
             class="w-full h-full flex items-center justify-center">
             <div class="w-1/2 h-1/2">

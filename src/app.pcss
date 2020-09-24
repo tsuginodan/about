@@ -4,41 +4,64 @@
 
 :root {
   --primary-color: theme('textColor.blue.600');
-  --background-color: theme('backgroundColor.blue.600');
+  --primary-background-color: theme('backgroundColor.blue.600');
+  --background-color: theme('backgroundColor.gray.200');
+  --disabled-background-color: theme('backgroundColor.blue.400');
   --text-color: theme('textColor.gray.700');
+}
+
+@media(prefers-color-scheme: dark) {
+  :root {
+    --primary-color: theme('textColor.green.600');
+    --primary-background-color: theme('backgroundColor.green.600');
+    --background-color: theme('backgroundColor.gray.700');
+    --disabled-background-color: theme('backgroundColor.green.400');
+    --text-color: theme('textColor.gray.200');
+  }
 }
 
 html {
   color: var(--text-color);
-  background-color: var(--background-color);
+  background-color: var(--primary-background-color);
   font-family: theme('fontFamily.display');
+}
+body {
+  background-color: var(--background-color);
 }
 h1 {
   color: var(--primary-color);
 }
-p.greetings {
+.about .about__greeting, .about .about__greeting + p {
   font-size: clamp(theme('fontSize.3xl'), theme('fontSize.4xl'), theme('fontSize.5xl'));
 }
-h1.name {
+.about .about__greeting:after {
+  content: '\1F44B';
+  margin-left: theme('margin.4');
+}
+.about .about__name {
   font-size: clamp(theme('fontSize.4xl'), theme('fontSize.5xl'), theme('fontSize.6xl'));
 }
-h2.about {
+.about .about__occupation {
   font-size: clamp(theme('fontSize.lg'), theme('fontSize.xl'), theme('fontSize.2xl'));
 }
+.about .about__occupation:after {
+  content: '\1F680';
+  margin-left: theme('margin.4');
+}
 svg {
-  fill: var(--background-color);
+  fill: var(--primary-background-color);
 }
 a svg {
-  fill: theme('backgroundColor.blue.400')
+  fill: var(--disabled-background-color);
 }
 a:hover svg {
-  fill: var(--background-color);
+  fill: var(--primary-background-color);
 }
 img {
   filter: grayscale(1);
 }
 
-@media(min-width: theme('screens.md')) {
+@media(min-width: theme('screens.lg')) {
   .grid {
     grid-template-areas:
     "header sidebar"
