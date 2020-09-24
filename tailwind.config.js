@@ -8,7 +8,7 @@ module.exports = {
   },
   theme: {
     fontFamily: {
-      display: [ 'Grandstander' ],
+      display: [ 'Poppins' ],
     },
   },
   variants: {},

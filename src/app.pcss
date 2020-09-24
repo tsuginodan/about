@@ -3,26 +3,58 @@
 @tailwind utilities;
 
 :root {
-  --minFontSize: 2em;
-  --maxFontSize: 12em;
-  --preferredFontSize: 2em + 2vw;
+  --primary-color: theme('textColor.blue.600');
+  --background-color: theme('backgroundColor.blue.600');
+  --text-color: theme('textColor.gray.700');
 }
 
-main {
+html {
+  color: var(--text-color);
+  background-color: var(--background-color);
   font-family: theme('fontFamily.display');
 }
-
-main h2 {
-  --preferredFontSize: 4em + 4vw;
-  font-size: clamp(var(--minFontSize), var(--preferredFontSize), var(--maxFontSize));
+h1 {
+  color: var(--primary-color);
 }
-main h3 {
-  font-size: clamp(var(--minFontSize), var(--preferredFontSize), var(--maxFontSize));
+p.greetings {
+  font-size: clamp(theme('fontSize.3xl'), theme('fontSize.4xl'), theme('fontSize.5xl'));
 }
-
+h1.name {
+  font-size: clamp(theme('fontSize.4xl'), theme('fontSize.5xl'), theme('fontSize.6xl'));
+}
+h2.about {
+  font-size: clamp(theme('fontSize.lg'), theme('fontSize.xl'), theme('fontSize.2xl'));
+}
 svg {
-   fill: theme('backgroundColor.gray.600')
+  fill: var(--background-color);
+}
+a svg {
+  fill: theme('backgroundColor.blue.400')
 }
 a:hover svg {
-   fill: theme('backgroundColor.gray.400')
+  fill: var(--background-color);
+}
+img {
+  filter: grayscale(1);
+}
+
+@media(min-width: theme('screens.md')) {
+  .grid {
+    grid-template-areas:
+    "header sidebar"
+    "content sidebar"
+    "footer footer"
+  }
+  .grid-header-area {
+    grid-area: header;
+  }
+  .grid-content-area {
+    grid-area: content;
+  }
+  .grid-sidebar-area {
+    grid-area: sidebar;
+  }
+  .grid-footer-area {
+    grid-area: footer;
+  }
 }
