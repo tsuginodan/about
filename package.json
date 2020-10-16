@@ -4,7 +4,7 @@
   "description": "Portfolio for incoming side projects",
   "main": "index.js",
   "scripts": {
-    "dev": "rm -rdf dist && parcel src/index.html",
+    "dev": "rm -rdf dist && parcel --no-cache src/*.pug",
     "build": "rm -rdf dist && parcel build src/* --no-cache --no-source-maps",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,9 +24,10 @@
     "autoprefixer": "^9.8.6",
     "cssnano": "^4.1.10",
     "parcel-bundler": "^1.12.4",
-    "postcss": "^8.0.9",
-    "sass": "^1.26.11",
-    "tailwindcss": "^1.8.10"
+    "postcss": "^8.1.1",
+    "pug": "^3.0.0",
+    "sass": "^1.27.0",
+    "tailwindcss": "^1.9.2"
   },
   "dependencies": {}
 }

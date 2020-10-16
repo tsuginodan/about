@@ -12,8 +12,8 @@
 
 @media(prefers-color-scheme: dark) {
   :root {
-    --primary-color: theme('textColor.green.600');
-    --primary-background-color: theme('backgroundColor.green.600');
+    --primary-color: theme('textColor.green.400');
+    --primary-background-color: theme('backgroundColor.green.400');
     --background-color: theme('backgroundColor.gray.700');
     --disabled-background-color: theme('backgroundColor.green.400');
     --text-color: theme('textColor.gray.200');
@@ -59,25 +59,4 @@ a:hover svg {
 }
 img {
   filter: grayscale(1);
-}
-
-@media(min-width: theme('screens.lg')) {
-  .grid {
-    grid-template-areas:
-    "header sidebar"
-    "content sidebar"
-    "footer footer"
-  }
-  .grid-header-area {
-    grid-area: header;
-  }
-  .grid-content-area {
-    grid-area: content;
-  }
-  .grid-sidebar-area {
-    grid-area: sidebar;
-  }
-  .grid-footer-area {
-    grid-area: footer;
-  }
 }
