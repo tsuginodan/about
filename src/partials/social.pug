@@ -1,0 +1,10 @@
+- var socials = [{ title: 'LinkedIn', label: 'LinkedIn profile', icon: '#linkedIn', href: 'https://www.linkedin.com/in/dalvarezvera' },{ title: 'Twitter', label: 'Twitter profile', icon: '#twitter', href: 'https://twitter.com/tsuginodan' },{ title: 'Github', label: 'Github profile', icon: '#github', href: 'https://github.com/akaisuicchi' },{ title: 'CV', label: 'CV file', icon: '#pdf', href: 'https://public.dalvarez.dev/cv_2.pdf' }]
+
+div(class="h-full w-full flex justify-around items-center")
+  each social in socials
+    div(class="lg:w-16 lg:h-16 xl:w-20 xl:h-20 h-12 w-12 rounded-full")
+      a(title=social.title aria-label=social.label href=`${social.href}` target="_blank" rel="noreferrer noopener" class="w-full h-full flex items-center justify-center")
+        div(class="w-full h-full")
+          svg(class="w-full h-full")
+            title #{social.label} icon
+            use(href=`${social.icon}`)
