@@ -1,11 +1,11 @@
 {
-  "name": "portfolio",
-  "version": "1.0.0",
-  "description": "Portfolio for incoming side projects",
-  "main": "index.js",
+  "name": "about",
+  "version": "0.1.0",
+  "description": "Presentation Card",
   "scripts": {
-    "dev": "rm -rdf dist && parcel --no-cache src/*.pug",
-    "build": "rm -rdf dist && parcel build src/* --no-cache --no-source-maps",
+    "dev": "snowpack dev",
+    "build": "snowpack build",
+    "postbuild": "rm -rdf dist/partials",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,13 +21,15 @@
   },
   "homepage": "https://github.com/akaisuicchi/portfolio#readme",
   "devDependencies": {
-    "autoprefixer": "^9.8.6",
-    "cssnano": "^4.1.10",
-    "parcel-bundler": "^1.12.4",
-    "postcss": "^8.1.1",
-    "pug": "^3.0.0",
-    "sass": "^1.27.0",
-    "tailwindcss": "^1.9.2"
-  },
-  "dependencies": {}
+    "@marlonmarcello/snowpack-plugin-pug": "^1.0.3",
+    "@snowpack/plugin-postcss": "^1.4.3",
+    "@snowpack/plugin-sass": "^1.4.0",
+    "autoprefixer": "^10.3.1",
+    "cssnano": "^5.0.8",
+    "postcss": "^8.3.6",
+    "pug": "^3.0.2",
+    "sass": "^1.38.0",
+    "snowpack": "^3.8.6",
+    "tailwindcss": "^2.2.7"
+  }
 }
